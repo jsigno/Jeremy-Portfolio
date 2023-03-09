@@ -24,8 +24,8 @@ export default function NavBar() {
           </Link>
         </li>
         <li>
-          <Link to="experience" smooth={true} duration={500}>
-            Experience
+          <Link to="MRG" smooth={true} duration={500}>
+            MRG
           </Link>
         </li>
         <li>
@@ -53,7 +53,7 @@ export default function NavBar() {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#064e3b] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#0c4a6e] flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">
@@ -68,7 +68,7 @@ export default function NavBar() {
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
-            Skills
+            MRG
           </Link>
         </li>
         <li className="py-6 text-4xl">

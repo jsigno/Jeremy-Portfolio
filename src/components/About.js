@@ -3,24 +3,22 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Portrait from "../images/Portrait.png";
 
-// import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
-
 export default function About() {
   useEffect(() => {
     AOS.init();
   }, []);
 
   return (
-    <div name="about" className="w-full h-screen bg-[#0c4a6e] text-white">
+    <div name="about" className="w-full h-screen bg-[#0c4a6e] text-white ">
       <div className="flex flex-col justify-center items-center w-full h-full">
-        <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
-          <div className="sm:text-right pb-8 pl-4">
+        <div className="max-w-[1000px] w-full grid grid-cols-2 gap-4">
+          <div className="sm:text-right pb-4 pl-4">
             <p className="text-6xl font-bold inline border-b-4 border-green-600">
               About
             </p>
           </div>
         </div>
-        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-1">
+        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-4 px-1">
           <img
             src={Portrait}
             alt="Logo img"
@@ -32,7 +30,7 @@ export default function About() {
             data-aos-offset="0"
           />
 
-          <p className="text-2xl">
+          <p className="lg:text-2xl sm:text-xs">
             As an expert from MRG Construction Services, I would like
             to share with you what we do. Our company specializes in providing
             top-notch construction services for both residential and commercial
