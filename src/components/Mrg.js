@@ -42,8 +42,8 @@ function Mrg() {
 
   return (
     <div name="MRG" className="w-full h-screen px-4 relative group bg-[#0c4a6e]">
-      <div className="pb-10">
-        <p className="text-5xl font-bold inline border-b-4 border-green-600 text-white">
+      <div className="py-5">
+        <p className="text-4xl font-bold inline border-b-4 border-green-600 text-white">
           MRG Construction
         </p>
       </div>
