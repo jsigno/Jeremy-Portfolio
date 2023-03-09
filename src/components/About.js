@@ -31,17 +31,15 @@ export default function About() {
           />
 
           <p className="lg:text-2xl sm:text-xs">
-            As an expert from MRG Construction Services, I would like
-            to share with you what we do. Our company specializes in providing
-            top-notch construction services for both residential and commercial
-            properties. We have a team of skilled professionals who are
-            dedicated to meeting all of your construction needs. We pride
-            ourselves on providing affordable pricing that is sure to fit your
-            budget. Our solutions are specifically designed to withstand the
-            extreme weather conditions in Texas and are made to last. You can
-            trust us to deliver high-quality work that is both reliable and
-            efficient.
-            
+            Looking for top-quality construction services for your residential
+            or commercial property? Look no further than MRG Construction
+            Services. Our skilled professionals provide reliable and efficient
+            solutions that are specifically designed to withstand the extreme
+            weather conditions in Texas. With affordable pricing that fits your
+            budget, trust us to deliver high-quality work that exceeds your
+            expectations. Choose MRG Construction Services for all your
+            construction needs, and experience the difference of our top-notch
+            services.
           </p>
         </div>
       </div>
