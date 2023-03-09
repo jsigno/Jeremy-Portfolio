@@ -40,8 +40,7 @@ export default function About() {
             budget. Our solutions are specifically designed to withstand the
             extreme weather conditions in Texas and are made to last. You can
             trust us to deliver high-quality work that is both reliable and
-            efficient. Choose MRG Construction Services for your construction
-            needs, and you won't be disappointed.
+            efficient.
             
           </p>
         </div>
