@@ -38,7 +38,7 @@ export default function Home() {
           Project Manager.
         </h2>
         <p className="text-[#fff] py-4 max-w-[700px]">
-          My goal is to inform & provide quality service by
+          My ultimate goal is to provide exceptional service by guiding and
           <RoughNotationGroup show={true}>
             <RoughNotation
               type="underline"
@@ -49,17 +49,19 @@ export default function Home() {
               {" "}
               educating{" "}
             </RoughNotation>
-            and walking through each step with every property and home owner{" "}
+            each property and homeowner through every step of the process. I am
+            committed to delivering a superior customer experience that is
+            nothing short of{" "}
             <RoughNotation
               type="underline"
               color="green"
               strokeWidth="2"
               animationDelay="1800"
             >
-              elite{" "}
+              world-class{" "}
             </RoughNotation>
           </RoughNotationGroup>
-          level of world class customer service.
+          {/* level of world class customer service. */}
         </p>
         <div>
           <Link to="projects" smooth={true} duration={500}>
