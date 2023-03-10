@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
+import Preferred from "../images/preferred.png";
+import GAF from "../images/gaf.png";
+import Malarkey from "../images/malarkey.png";
 
 function Mrg() {
   const slides = [
@@ -41,7 +44,10 @@ function Mrg() {
   };
 
   return (
-    <div name="MRG" className="w-full h-screen px-4 relative group bg-[#0c4a6e]">
+    <div
+      name="MRG"
+      className="w-full h-screen px-4 relative group bg-[#0c4a6e]"
+    >
       <div className="py-5">
         <p className="text-4xl font-bold inline border-b-4 border-green-600 text-white">
           MRG Construction
@@ -52,11 +58,11 @@ function Mrg() {
         className="w-full h-[500px] rounded-2xl bg-center bg-cover duration-500"
       ></div>
       {/* Left Arrow */}
-      <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+      <div className="hidden group-hover:block absolute top-[38%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
         <BsChevronCompactLeft onClick={prevSlide} size={30} />
       </div>
       {/* Right Arrow */}
-      <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+      <div className="hidden group-hover:block absolute top-[38%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
         <BsChevronCompactRight onClick={nextSlide} size={30} />
       </div>
       <div className="flex top-4 justify-center py-2">
@@ -69,8 +75,19 @@ function Mrg() {
             <RxDotFilled />
           </div>
         ))}
-        <div>
-        </div>
+      </div>
+      <div className="flex items-center justify-center">
+        <ul className="flex justify-evenly">
+          <li className="w-1/6">
+            <img src={GAF} className="h-50" />
+          </li>
+          <li className="w-1/6">
+            <img src={Malarkey} className="h-50" />
+          </li>
+        </ul>
+      </div>
+      <div className="flex items-center justify-center">
+        <img src={Preferred} className="w-1/4 h-auto" />
       </div>
     </div>
   );

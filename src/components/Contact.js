@@ -16,14 +16,10 @@ export default function Contact() {
             Contact
           </p>
           <p className="text-white py-4">
-            To schedule a complimentary property inspection, you have two
-            options: you can either fill out the form below or send an email to
-            Cornejo@mrconstructionservices.com. Additionally, you can call me at
-            (940)-230-1867 to schedule your inspection over the phone. Please
-            provide me with your contact information, as well as any relevant
-            details about your property that you would like us to know. I
-            appreciate your interest in our services and look forward to hearing
-            from you soon.
+            To schedule a free complimentary property inspection, you can fill out the form below,
+            email Cornejo@mrconstructionservices.com, or call (940)-230-1867.
+            Please provide your contact information and property details. Thank
+            you for considering our services.
           </p>
         </div>
         <input
