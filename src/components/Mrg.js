@@ -76,15 +76,18 @@ function Mrg() {
           </div>
         ))}
       </div>
-      <div className="flex items-center justify-center">
+      {/* <div className="flex items-center justify-center">
         <img src={Preferred} className="lg:w-1/3 h-auto sm:w-6" />
-      </div>l
+      </div> */}
       <div className="flex items-center justify-center">
         <ul className="flex justify-evenly">
-          <li className="w-1/6">
+          <li className="w-1/5">
             <img src={GAF} className="h-50" />
           </li>
-          <li className="w-1/6">
+          <li className="w-1/2">
+          <img src={Preferred} className="h-auto" />
+          </li>
+          <li className="w-1/5">
             <img src={Malarkey} className="h-50" />
           </li>
         </ul>
