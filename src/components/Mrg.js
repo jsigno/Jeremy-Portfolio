@@ -87,7 +87,7 @@ function Mrg() {
         </ul>
       </div>
       <div className="flex items-center justify-center">
-        <img src={Preferred} className="w-1/4 h-auto" />
+        <img src={Preferred} className="lg:w-1/3 h-auto sm:w-6" />
       </div>
     </div>
   );
